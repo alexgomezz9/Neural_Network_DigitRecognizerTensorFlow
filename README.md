@@ -1,4 +1,4 @@
-# Reconocimiento de Dígitos con Redes Neuronales
+# Reconocimiento de Dígitos con Redes Neuronales con TensorFlow
 
 Este proyecto utiliza redes neuronales para resolver el problema de **reconocimiento de dígitos escritos a mano** (del 0 al 9) usando el famoso conjunto de datos **MNIST**. El objetivo principal es entrenar un modelo que pueda identificar correctamente los dígitos en imágenes de 28x28 píxeles.
 
