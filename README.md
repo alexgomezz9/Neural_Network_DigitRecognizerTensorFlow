@@ -15,6 +15,16 @@ Este proyecto utiliza redes neuronales para resolver el problema de **reconocimi
 - Se entrena utilizando el optimizador **Adam** y la función de pérdida **sparse categorical crossentropy**.
 - Se monitorea la precisión y la pérdida tanto en el conjunto de entrenamiento como en el de validación para evitar el sobreajuste y garantizar un buen rendimiento.
 
+## Gráficas de Rendimiento
+
+Se generan gráficas que muestran la evolución de la **precisión** y la **pérdida** tanto en el conjunto de entrenamiento como en el conjunto de validación a lo largo de las épocas de entrenamiento. Estas gráficas ayudan a evaluar el rendimiento del modelo y a detectar posibles signos de sobreajuste.
+
+Las gráficas incluyen:
+- **Curva de precisión**: Precisión en entrenamiento y validación por época.
+- **Curva de pérdida**: Pérdida en entrenamiento y validación
+  
 ## Resultados
 
 El modelo alcanza una precisión en el conjunto de validación de aproximadamente **96-97%** después de algunas épocas de entrenamiento, lo que indica que es capaz de generalizar bien y realizar predicciones precisas sobre los dígitos escritos a mano.
+
+
